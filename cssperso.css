@@ -1,0 +1,107 @@
+.marginn {
+    margin : 5px 5px
+}
+
+
+.marginmenudecesmorts {
+    position : absolute;
+    right: 0px;
+    margin: 250px auto auto auto;
+}
+
+
+.centerlogo{
+    padding : 0;
+}
+
+
+.parent{
+    position:relative;
+}
+
+
+.childCarou{
+    position:relative;
+}
+
+
+.childLogo{
+    z-index:1;
+}
+
+
+.backg{
+    background-color:rgba(178, 173, 195, 0.5);
+}
+
+
+.firstTab{
+    background-color:rgba(230, 222, 209, 255);
+    width: 100%;
+    height: auto;
+}
+
+
+.illu1{
+    margin: 50px;
+    display: inline-block;
+}
+
+
+.text1{
+    margin: 50px;
+    display: inline-block;
+    border: 0.2rem solid;
+    width: 65%;
+}
+
+
+.secondTab{
+    background-color:rgba(216, 186, 137, 255);
+    width: 100%;
+    height: auto;
+    margin:0px;
+}
+
+
+.map{
+    position: relative;
+    margin: 50px 0px 50px 300px;
+    display: inline-block;
+    right:0px;
+    top:0px;
+}
+
+
+.text2{
+    margin: 0px 50px 50px 50px;
+    display: inline-block;
+    border: 0.5rem solid;
+    width: 100%;
+}
+
+
+.title{
+    margin: 100px 50px 50px 50px;
+    text-align:center;
+    display: inline-block;
+    border: 0.8rem solid;
+    width: 100%;
+}
+
+
+.btnvac{
+    margin: auto;
+}
+
+
+.vaccontain{
+    -webkit-columns: 2 auto;
+    -moz-columns: 2 auto;
+    columns: 2 auto;
+}
+
+
+.footer{
+    background-color:rgba(142, 141, 141, 255);
+}
