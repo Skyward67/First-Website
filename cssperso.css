@@ -39,20 +39,17 @@
     background-color:rgba(230, 222, 209, 255);
     width: 100%;
     height: auto;
+    margin-bottom: auto;
 }
 
 
-.illu1{
-    margin: 50px;
-    display: inline-block;
+.topt{
+  margin-top:50px;
 }
 
 
-.text1{
-    margin: 50px;
-    display: inline-block;
-    border: 0.2rem solid;
-    width: 65%;
+.bottomt{
+  padding-bottom: 50px;
 }
 
 
@@ -61,6 +58,7 @@
     width: 100%;
     height: auto;
     margin:0px;
+    top:0px;
 }
 
 
@@ -68,8 +66,6 @@
     position: relative;
     margin: 50px 0px 50px 300px;
     display: inline-block;
-    right:0px;
-    top:0px;
 }
 
 
@@ -105,3 +101,21 @@
 .footer{
     background-color:rgba(142, 141, 141, 255);
 }
+
+
+main {
+    float:left;
+    width:50%;
+  }
+
+  aside {
+    float:left;
+    width:50%;
+  }
+
+  .conteneur {
+    /* Largeur Fluide et liquide, changer le 1000px par 100% */
+    max-width:1000px;
+    /* Centre le conteneur dans la page */
+    margin:auto;
+  }
