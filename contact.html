@@ -12,6 +12,13 @@
     <!-- Browser tab logo -->
     <link rel="shortcut icon" type="image/png" href="images/icons/tab.ico">
 
+    <style>
+        body {
+            background-image: url('./images/contact/backgroundcontact.jpg');
+            background-attachment: fixed;
+        }
+    </style>
+
     <title>Contacts</title>
 </head>
 <body>
@@ -48,6 +55,36 @@
         </button>
 </nav>
 
+<div>
+  <form class = "row formcontact">
+    <select class="form-select form-select-lg mb-3 text-white bg-dark" aria-label=".form-select-lg example" required>
+  <option value="" selected disabled class="text-white bg-dark" style="margin: 0px 0px 0px 6px;">Pourquoi nous contacter?</option>
+  <option value="1" class="text-white bg-dark" style="margin: 0px 0px 0px 6px;">Tourisme</option>
+  <option value="2" class="text-white bg-dark" style="margin: 0px 0px 0px 6px;">Journaliste</option>
+  <option value="3" class="text-white bg-dark" style="margin: 0px 0px 0px 6px;">Historien</option>
+</select>
+<div class="form-floating mb-3 col-md-4 needs-validation">
+<input type="email" class="form-control bg-dark text-white form-control" id="floatingInput validationCustom05" placeholder="name@example.com" required>
+<label for="floatingInput validationCustom05" class="text-white" style="margin: 0px 0px 0px 6px;">Adresse mail</label>
+</div>
+<div class="form-floating mb-3 col-md-4">
+  <input class="form-control bg-dark text-white" id="floatingInput" placeholder="text">
+  <label for="floatingInput" class="text-white" style="margin: 0px 0px 0px 6px;">Nom</label>
+</div>
+<div class="form-floating mb-3 col-md-4">
+  <input class="form-control bg-dark text-white" id="floatingInput" placeholder="text">
+  <label for="floatingInput" class="text-white" style="margin: 0px 0px 0px 6px;">Prénom</label>
+</div>
+<div class="form-floating">
+  <textarea class="form-control text-white bg-dark" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px" required></textarea>
+  <label for="floatingTextarea2" class="text-white" style="margin: 0px 0px 0px 6px;">Message</label>
+</div>
+  <button type="submit" class="btn btn-success" style="margin: 5% 0px 0px 0px;">Envoyer</button>
+</form>
+
+
+
+</div>
 
 </body>
 </html>

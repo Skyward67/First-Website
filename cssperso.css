@@ -136,3 +136,8 @@ aside {
 .uselesscard{
     visibility: hidden;
 }
+
+
+.formcontact{
+  margin: 100px 10% 25px 10%;
+}
