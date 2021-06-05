@@ -139,5 +139,10 @@ aside {
 
 
 .formcontact{
-  margin: 100px 10% 25px 10%;
+  margin: 25px;
+}
+
+
+.formcard{
+  margin: 90px 5% 5px 5%;
 }
