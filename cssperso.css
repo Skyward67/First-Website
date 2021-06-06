@@ -50,12 +50,13 @@
 
 
 .imgindexfirstab{
-  margin: 0px 0px 0px 20%;
+  margin: 0px 0px 10px 20%;
 }
 
 
 .bottomt{
   padding-bottom: 50px;
+  margin-top: 20px;
   text-align: justify;
 }
 
