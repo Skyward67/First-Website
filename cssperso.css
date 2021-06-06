@@ -45,11 +45,18 @@
 
 .topt{
   margin-top:50px;
+  text-align: justify;
+}
+
+
+.imgindexfirstab{
+  margin: 0px 0px 0px 20%;
 }
 
 
 .bottomt{
   padding-bottom: 50px;
+  text-align: justify;
 }
 
 
@@ -63,7 +70,7 @@
 
 .map{
     position: relative;
-    margin: 100px 10% 50px 20%;
+    margin: 125px 10% 50px 20%;
     width: auto;
     min-width: 550px;
     display: inline-block;
@@ -71,15 +78,14 @@
 
 
 .text2{
-    margin: 0px 50px 50px 50px;
+    margin: 0px 155px 50px 65px;
     display: inline-block;
-    border: 0.5rem solid;
     width: 100%;
 }
 
 
 .title{
-    margin: 100px 50px 50px 50px;
+    margin: 100px 150px 50px 50px;
     text-align:center;
     display: inline-block;
     border: 0.8rem solid;
@@ -88,7 +94,7 @@
 
 
 .btnvac{
-    margin: auto;
+  margin: 40px auto auto;
 }
 
 
@@ -118,7 +124,7 @@ aside {
 
 .conteneur {
     /* Largeur Fluide et liquide, changer le 1000px par 100% */
-  max-width:1000px;
+  max-width:1450px;
     /* Centre le conteneur dans la page */
   margin:auto;
 }
