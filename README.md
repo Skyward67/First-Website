@@ -1,2 +1,2 @@
 # First-Website
-First Website created during a course in IUT (1st year)
+First website created during my IUT course (1st year)
